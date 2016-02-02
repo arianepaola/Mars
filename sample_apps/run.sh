@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #$Id: run.sh 740 2009-11-13 16:17:34Z wenbinor $
 
 #===========================================================
@@ -13,7 +13,7 @@
 #you must setup correct $SDK_PATH
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #SDK_PATH="$HOME/CUDA_SDK"
-SDK_PATH="/home/wenbin/CUDA_SDK"
+SDK_PATH="/home/$USER/NVIDIA_GPU_Computing_SDK"
 
 SDK_BIN_PATH="$SDK_PATH/C/bin/linux/release"
 SDK_SRC_PATH="$SDK_PATH/C/sample_apps"
